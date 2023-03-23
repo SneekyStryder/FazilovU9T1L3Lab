@@ -7,4 +7,22 @@ public class Car extends Vehicle {
         this.electric = electric;
         discountApplied = false;   // default value
     }
+
+    public void printCar() {
+        System.out.println("License: " + getLicensePlate());
+        System.out.println("Toll Fee: " + getTollFee());
+        System.out.println("Number of Passengers: " + getPassengers());
+        if (electric == true) {
+            System.out.println("Is Electric");
+        }
+        else {
+            System.out.println("Not Electric");
+        }
+        if (discountApplied == true) {
+            System.out.println("Discount is Applied");
+        }
+        else {
+            System.out.println("No Discount");
+        }
+    }
 }

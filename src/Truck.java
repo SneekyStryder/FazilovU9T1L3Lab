@@ -7,4 +7,8 @@ public class Truck extends Vehicle {
         this.axles = axles;
         this.hasTrailer = hasTrailer;
     }
+
+    public void printTruck() {
+
+    }
 }
