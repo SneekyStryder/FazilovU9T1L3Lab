@@ -24,4 +24,12 @@ public class Vehicle {
     public String getLicensePlate() {
         return licensePlate;
     }
+
+    public void setPassengers(int passengers) {
+        this.passengers = passengers;
+    }
+
+    public void setTollFee(double tollFee) {
+        this.tollFee = tollFee;
+    }
 }
